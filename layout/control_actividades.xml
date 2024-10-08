@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#33ceff"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnCrearActividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Actividades"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnActualizarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Perfil"
+        android:backgroundTint="#FF6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+</LinearLayout>
